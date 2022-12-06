@@ -1,0 +1,117 @@
+@font-face {
+    font-family: airbnb2;
+    src: url("/src/assets/font/AirbnbCereal_W_Md.otf");
+}
+
+@font-face {
+    font-family: airbnb;
+    src: url("//src/assets/font/AirbnbCereal_W_Bd.otf");
+}
+
+.profile-user .picture-user img {
+    text-align: center;
+    width: 100px;
+    height: 100px;
+}
+
+.profile-user span {
+    font-size: 15px;
+    font-family: airbnb;
+}
+
+.container-custom-profile {
+    height: 250px;
+}
+
+.container-custom-history {
+    height: auto;
+    margin-bottom: 100px;
+}
+
+.container-custom-history .history-user .card {
+    border: none;
+    border-radius: 15px;
+    width: 280px;
+    height: auto;
+}
+
+.container-custom-history .history-user .card:hover {
+    box-shadow: 5px 5px 5px gray;
+}
+
+.container-custom-history .history-user .card img {
+    width: 280px;
+    border-radius: 15px;
+    height: auto;
+}
+
+.container-custom-history .history-user .card .card-img-overlay h3{
+    color: white;
+    padding-top: 200px;
+    font-family: airbnb2;
+    text-shadow: 3px 3px 10px grey;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.container-custom-history .history-user .card .card-img-overlay .btn-danger:hover{
+    box-shadow: 3px 3px 5px gray;
+    width: 100px;
+    height: auto;
+}
+
+.container-custom-history .history-user .card .card-img-overlay .btn-warning-custom {
+    background-color: white;
+    margin-left: 3px;
+}
+
+.container-custom-history .history-user .card .card-img-overlay .btn-warning-custom:hover{
+    background-color: white;
+    box-shadow: 3px 3px 5px gray;
+    width: 100px;
+    height: auto;
+}
+
+.container-custom-history .history-user button {
+    font-family: airbnb2;
+}
+
+.container-custom-profile .profile-user .btn-edit-photo {
+    border-bottom: 2px solid white;
+    background-color: #E7E7E7;
+    font-family: airbnb2;
+    font-size: 14px;
+    width: 200px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}
+
+.container-custom-profile .profile-user .change_profile > input {
+    display: none;
+}
+
+.container-custom-profile .profile-user .btn-custom-password {
+    border-bottom: 2px solid white;
+    background-color: #E7E7E7;
+    font-family: airbnb2;
+    font-size: 14px;
+    width: 200px;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}
+
+.container-custom-profile .profile-user .btn-custom-edit {
+    border: none;
+    background-color: #E7E7E7;
+    font-family: airbnb2;
+    font-size: 14px;
+    width: 200px;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}

@@ -1,0 +1,36 @@
+@font-face {
+    font-family: airbnb2;
+    src: url("/src/assets/font/AirbnbCereal_W_Md.otf");
+    }
+
+.container-custom-navbar {
+    height: 100px;
+}
+    
+.navbar li a {
+    text-decoration: none;
+    color: #2E266F;
+    font-size: 15px;
+    margin-left: 30px;
+    font-family: airbnb2;
+}
+    
+.navbar li a:hover {
+    color: white;
+    font-size: large;
+    border: 1px solid #EFC81A;
+    box-shadow: 0px 4px 10px 3px rgba(0, 0, 0, 0.11);
+    border-radius: 6px;
+    width: 345px;
+    font-family: airbnb2;
+    height: 40px;
+    size: 16px;
+    padding: 6px;
+    box-sizing: border-box;
+    height: 50px;
+    background-color: #EFC81A !important;
+}
+    
+.navbar li {
+    list-style: none;
+}

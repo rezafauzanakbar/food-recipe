@@ -1,0 +1,24 @@
+/* CSS FOOTER */
+footer {
+    background-color: #EFC81A;
+    height: 350px;
+    }
+    
+    footer h1 {
+    color: #2E266F;
+    font-size: 50px;
+    padding-top: 120px;
+    font-family: airbnb2;
+    }
+    
+    footer span {
+    color: #707070;
+    
+    }
+    
+    footer ul li {
+    color: #707070;;
+    font-size: 15px;
+    list-style: none;
+    margin-top: 90px;
+    }

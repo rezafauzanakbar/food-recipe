@@ -1,0 +1,106 @@
+.container-custom {
+    height: auto;
+  }
+  
+  .bg-image {
+      background-image: linear-gradient(
+        to bottom,
+        rgba(241, 188, 15, 0.82),
+        rgba(241, 188, 15, 0.82)
+      ),
+      url('/src/assets/img/image 15.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      background-position: center;
+      height: auto;
+  }
+  
+  .logo-custom {
+      height: 150px;
+      width: 150px;
+  }
+    
+  .btn-warning{
+   background-color: #EFC81A !important;
+   color: white !important;
+   width: 345px;
+   height: 40px;
+   size: 16px;
+   padding: 6px;
+   box-sizing: border-box;
+   height: 50px;
+   border: 1px solid #EFC81A;
+   box-shadow: 0px 4px 10px 3px rgba(0, 0, 0, 0.11);
+   border-radius: 6px;
+  }
+  
+  .rectangle-custom {
+    box-sizing: border-box;
+    height: 80px;
+    border: 1px solid rgb(207, 204, 204);
+    box-shadow: 0px 4px 5px 1px rgba(0, 0, 0, 0.11);
+    border-radius: 6px;
+  }
+  
+  .rectangle-custom .icon i {
+    padding-top: 2px;
+    size: 2px;
+    color: #666666;
+    margin-bottom: 0px;
+  }
+  
+  .rectangle-custom .user_upload label a {
+    color: #666666;
+    font-size: 15px;
+    padding-top: 10px;
+  }
+  
+  .rectangle-custom .user_upload > input {
+    display: none;
+  }
+  
+  form hr {
+   border: 1px solid #dddcdc;
+  
+  }
+  
+  form input {
+   box-sizing: border-box;
+   height: 50px;
+   border: 1px solid #EFC81A;
+   box-shadow: 0px 4px 5px 1px rgba(0, 0, 0, 0.11);
+   border-radius: 6px;
+  }
+  
+  .checkbox-custom {
+   height: 12px !important;
+   accent-color:#EFC81A;
+   cursor: pointer;
+  }
+  
+  input[type="text"]:focus {
+   border: 1px solid #EFC81A;
+  }
+  
+  @media screen and (max-width:720px){
+   .bg-image {
+      display: none
+   }
+  
+   .btn-warning{
+     background-color: #EFC81A !important;
+     color: white !important;
+     width: 320px;
+     height: 40px;
+     size: 16px;
+     padding: 6px;
+     box-sizing: border-box;
+     height: 50px;
+     border: 1px solid #EFC81A;
+     box-shadow: 0px 4px 10px 3px rgba(0, 0, 0, 0.11);
+     border-radius: 6px;
+   }
+  }

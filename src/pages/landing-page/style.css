@@ -1,0 +1,375 @@
+@font-face {
+    font-family: airbnb;
+    src: url("/src/assets/font/AirbnbCereal_W_Bd.otf");
+}
+
+@font-face {
+    font-family: airbnb2;
+    src: url("/src/assets/font/AirbnbCereal_W_Md.otf");
+}
+
+
+
+/* CSS PAGE HOME */
+
+.container-home {
+    height: 700px;
+    position: relative;
+}
+
+.side-left-landing {
+    background-color: #FFF5EC;
+    height: 700px;
+}
+
+.side-right-landing {
+    background-color: #EFC81A;
+    height: 700px;
+}
+
+.side-right-landing .navbar-right .user .user-custom img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.side-right-landing .navbar-right .user .user-custom a {
+    margin-left: 0px;
+}
+
+.navbar-right {
+    text-decoration: none;
+    list-style: none;
+}
+
+.navbar-right li a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    margin: 17px;
+    font-family: airbnb2;
+}
+
+.content {
+    width: 30%;
+    position: absolute;
+    color: #2E266F;
+    margin-left: 50px;
+    margin-top: 120px;
+}
+
+.content h1 {
+    font-size: 50px;
+    font-family: airbnb;
+}
+
+.content .search {
+    width: 500px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 38px;
+}
+
+.content .icon {
+    position: absolute;
+    padding-left: 14px;
+    padding-top: 14px;
+    color: #C4C4C4;
+}
+
+.decoration img {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    background-size: 300px, 300px, 300px;
+    background-position:left top, left top, left bottom;
+    background-repeat: no-repeat;
+    background-image: url("/src/assets/img/—Pngtree—lettuce_1175257 1.svg"), url("/src/assets/img/Make Vector BG.svg"), url("/src/assets/img/Make Vector BG-1.svg");
+}
+
+/* CSS PAGE POPULAR FOR YOU */
+
+.container-popular {
+    background-color: #FFF5EC;
+    height: 700px;
+    position: relative;
+}
+
+.container-popular .popular-title {
+    height: 130px;
+}
+
+.container-popular .popular-title .bg-title {
+    background-color: #EFC81A;
+    width: 10px;
+    height: 70px;
+    margin-left: 50px;
+}
+
+.container-popular .popular-title h1 {
+    margin-left: 25px;
+    margin-top: 10px;
+    position: absolute;
+    color: #2E266F;
+    font-family: airbnb2;
+}
+
+.container-card .card {
+    border: none;
+    border-radius: 15px;
+    height: auto;
+    width: 400px;
+}
+
+.container-card .card:hover {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px #EFC81A;
+    width: 400px;
+    height: auto;
+}
+
+.container-card .card .card-img-overlay h2{
+    color: white;
+    padding-top: 320px;
+    font-family: airbnb2;
+    text-shadow: 5px 5px 10px grey;
+    padding-left: 10px;
+}
+
+/* CSS PAGE NEW RECIPE */
+
+.container-recipe {
+    height: 800px;
+    background-color: #FFF5EC;
+}
+
+.container-recipe .recipe-title {
+    height: 150px;
+}
+
+.container-recipe .recipe-title .bg-recipe-yellow {
+    background-color: #EFC81A;
+    width: 10px;
+    height: 70px;
+    margin-left: 50px;
+}
+
+.container-recipe .recipe-title .bg-recipe-yellow h1 {
+    margin-left: 25px;
+    margin-top: 10px;
+    position: absolute;
+    color: #2E266F;
+    font-family: airbnb2;
+}
+
+.container-recipe .recipe-body .right-recipe .bg-recipe {
+    background-color: #EFC81A;
+    width: 250px;
+    height: 500px;
+}
+
+.container-recipe .recipe-body .right-recipe .bg-recipe img {
+    width: 400px;
+    height: auto;
+    position: relative;
+    margin-left: 50px;
+    margin-top: 52px;
+}
+
+.container-recipe .recipe-body .right-recipe .bg-recipe img:hover {
+    width: 550px;
+    height: auto;
+    position: relative;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 52px;
+    box-shadow: 5px 5px 10px #EFC81A;
+    cursor: zoom-in;
+}
+
+.container-recipe .recipe-body .left-recipe {
+   color: #3F3A3A;
+   margin-top: 70px;
+}
+
+.container-recipe .recipe-body .left-recipe h2 {
+    font-size: 35px;
+    width: 50%;
+}
+
+.container-recipe .recipe-body .left-recipe hr {
+    font-size: 30px;
+    width: 10%;
+    border: 1px solid black;
+}
+
+.container-recipe .recipe-body .left-recipe span {
+    font-size: 20px;
+    color: #3F3A3A;
+}
+
+.container-recipe .recipe-body .left-recipe button {
+        background-color: #EFC81A !important;
+        color: white !important;
+        width: 200px;
+        height: 50px;
+        box-sizing: border-box;
+        border: 1px solid #EFC81A;
+        box-shadow: 0px 4px 10px 3px rgba(0, 0, 0, 0.11);
+        border-radius: 6px;
+}
+
+/* PAGE POPULAR RECIPE */
+.container-popular-recipe {
+    height: auto;
+    background-color: #FFF5EC;
+}
+
+.container-popular-recipe .popular-recipe-title {
+    height: 130px;
+}
+
+.container-popular-recipe .popular-recipe-title .bg-popular-recipe {
+    background-color: #EFC81A;
+    width: 10px;
+    height: 70px;
+    margin-left: 50px;
+}
+
+.container-popular-recipe .popular-recipe-title h1 {
+    margin-left: 25px;
+    margin-top: 10px;
+    position: absolute;
+    color: #2E266F;
+    font-family: airbnb2;
+}
+
+.container-popular-recipe .popular-recipe-body .container-card .card {
+    border: none;
+    border-radius: 15px;
+    position: relative;
+}
+
+.container-popular-recipe .popular-recipe-body .container-card .card:hover {
+    box-shadow: 5px 5px 5px grey;
+}
+
+.container-popular-recipe .popular-recipe-body .container-card .card img {
+    border-radius: 15px;
+    width: 400px;
+    height: auto;
+}
+
+.container-popular-recipe .popular-recipe-body .container-card .card .card-img-overlay h3{
+    color: white;
+    padding-top: 300px;
+    text-shadow: 3px 3px 10px grey;
+    font-family: airbnb2;
+    padding-left: 10px;
+}
+
+.container-popular-recipe .container-card {
+    margin: 50px;
+}
+
+@media screen and (max-width:720px){
+    .decoration img {
+       width: 250px;
+       height: auto;
+       margin-top: 10px;
+       background-size: 100px;
+       background-position:left top;
+       background-repeat: no-repeat;
+       background-image: url("/src/assets/img/—Pngtree—lettuce_1175257 1.svg");
+    }
+
+    .content {
+        width: 50%;
+        position: absolute;
+        color: #2E266F;
+        margin-left: 50px;
+        margin-top: 230px;
+    }
+
+    .side-left-landing .content h1 {
+        font-size: 45px;
+    }
+
+    .side-left-landing .content input {
+        width: 300px;
+    }
+
+    .side-right-landing .navbar-right {
+        display: none;
+    }
+
+    .container-popular {
+        height: auto;
+    }
+
+    .popular-title {
+        padding-top: 20px;
+    }
+
+    .popular-body .container-card .card {
+        margin: 45px;
+        width: 300px;
+        height: auto;
+    }
+
+    .popular-body .container-card .card h2 {
+        padding-top: 230px;
+    }
+
+    .container-recipe {
+        height: 900px;
+    }
+
+    .container-recipe .recipe-body .right-recipe .bg-recipe{
+        height: 370px;
+    }
+    
+
+    .container-recipe .recipe-body .right-recipe .bg-recipe img {
+        width: 300px;
+        height: auto;
+    }
+
+    .container-recipe .recipe-body .right-recipe .bg-recipe img:hover {
+        width: 300px;
+        height: auto;
+    }
+
+    .container-recipe .recipe-body .left-recipe {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .container-recipe .recipe-body .left-recipe h2 {
+        width: 100%;
+    }
+
+    .container-popular-recipe {
+        height: auto;
+    }
+
+    .container-popular-recipe .popular-recipe-body .container-card .card{
+        width: 300px;
+        height: auto;
+    }
+
+    .container-popular-recipe .popular-recipe-body .container-card .card img {
+        width: 300px;
+        height: auto;
+    }
+
+    .container-popular-recipe .popular-recipe-body .container-card .card .card-img-overlay h3 {
+        padding-top: 230px;
+    }
+
+    
+}

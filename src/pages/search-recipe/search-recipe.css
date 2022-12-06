@@ -1,0 +1,61 @@
+@font-face {
+    font-family: airbnb2;
+    src: url("/src/assets/font/AirbnbCereal_W_Md.otf");
+}
+
+.container-custom-search .container h3 {
+    font-family: airbnb2;
+    color:black;
+    text-shadow: 3px 3px 10px rgb(121, 115, 115);
+}
+
+.container-custom-search .row .card {
+    border-radius: 15px;
+    border: none;
+}
+
+.container-custom-search .row .card img {
+    border-radius: 15px;
+}
+
+.container-custom-search .row .card .card-img-overlay h3 {
+    color: white;
+    padding-top: 260px;
+    font-family: airbnb2;
+    text-shadow: 3px 3px 10px grey;
+    padding-left: 10px;
+    font-size: 30px;
+}
+
+.container-custom-search .row .card:hover {
+    box-shadow: 3px 3px 5px rgb(247, 222, 2);
+}
+
+
+@media screen and (max-width:720px){
+    .image-recipe .button-save {
+       display: none
+    }
+
+    .image-recipe .button-like {
+        display: none
+    }
+
+    .image-recipe img {
+        width: 500px;
+        height: 500px;
+    }
+
+    .image-recipe {
+        height: 450px;
+    }
+
+    .navbar-custom ul li {
+        text-decoration: none;
+        color: #2E266F;
+        font-family: airbnb2;
+        display: list-item;
+        padding-bottom: 10px;
+        list-style: none;
+    }
+}
