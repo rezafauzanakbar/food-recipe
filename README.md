@@ -1,70 +1,116 @@
-# Getting Started with Create React App
+<h1>Mama Recipe (FE)</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of contents
 
-## Available Scripts
+- [Description](#Description)
+- [Built With](#built-with)
+- [Screenshoots](#screenshoots)
+- [Related Project](#related-project)
+- [Contributing](#contributing)
+- [Run Project](#run-project)
 
-In the project directory, you can run:
+## Description
 
-### `npm start`
+Mama Recipe is a food recipe web application, in this application users can create, view details, update and delete food recipes. The app is built using the PERN stack (Postgresql, Express JS, React JS, Node JS).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Built With
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This app was built with some technologies below:
 
-### `npm test`
+- [JavaScript](https://www.javascript.com/)
+- [Node.js](https://nodejs.org/en/)
+- [React.js](https://reactjs.org/)
+- [Bootstrap](https://getbootstrap.com/)
+- [Axios](https://axios-http.com/)
+- [Postgresql](https://www.postgresql.org/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Screenshoots
 
-### `npm run build`
+<details>
+  <summary>
+    Login & Register
+  </summary>
+<img src="/screenshoots/login.PNG" alt="Login Page" />
+<img src="/screenshoots/register.PNG" alt="Register Page" />
+</details>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<details>
+  <summary>
+    Home Page
+  </summary>
+<img src="/screenshoots/home.PNG" alt="Home" />
+<img src="/screenshoots/home2.PNG" alt="Home2" />
+</details>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<details>
+  <summary>
+   Search Result
+  </summary>
+<img src="/screenshoots/searchayam.PNG" alt="Search" />
+</details>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<details>
+  <summary>
+   Add Recipe
+  </summary>
+<img src="/screenshoots/addrecipe.PNG" alt="Add Recipe" />
+</details>
 
-### `npm run eject`
+<details>
+  <summary>
+    Profile
+  </summary>
+<img src="/screenshoots/profile.PNG" alt="Profile" />
+<img src="/screenshoots/recipe.PNG" alt="ProfileFood" />
+</details>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<details>
+  <summary>
+   Update Page
+  </summary>
+<img src="/screenshoots/update.PNG" alt="update" />
+</details>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<details>
+  <summary>
+   Detail Page
+  </summary>
+<img src="/screenshoots/detail.PNG" alt="detail" />
+</details>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<details>
+  <summary>
+   Update Page
+  </summary>
+<img src="/screenshoots/update.PNG" alt="update" />
+</details>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<details>
+  <summary>
+  Video Page
+  </summary>
+<img src="/screenshoots/videostep.PNG" alt="update" />
+</details>
 
-## Learn More
+## Related Project
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+RESTful API for this web application, clone this for development Foodtemplate.\
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [backend-MamaRecipe](https://github.com/vickomaris/BE_redux_MamaRecipe)
+- [deploy-vercel](https://fe-redux-mama-recipe.vercel.app/)
 
-### Code Splitting
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-### Analyzing the Bundle Size
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b your/branch`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/yourbranch`)
+5. Open a Pull Request
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Run Project
 
-### Making a Progressive Web App
+Install package : npm i
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Run Project : npm start
