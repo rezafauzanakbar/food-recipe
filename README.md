@@ -30,7 +30,7 @@ This app was built with some technologies below:
   <summary>
     Login & Register
   </summary>
-<img src="/assets/screenshoots/Login.png" alt="Login Page" />
+<img src="/src/assets/screenshoots/Login.png" alt="Login Page" />
 <img src="/screenshoots/register.PNG" alt="Register Page" />
 </details>
 
