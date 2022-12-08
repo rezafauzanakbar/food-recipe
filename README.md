@@ -31,65 +31,56 @@ This app was built with some technologies below:
     Login & Register
   </summary>
 <img src="/src/assets/screenshoots/Login.png" alt="Login Page" />
-<img src="/screenshoots/register.PNG" alt="Register Page" />
+<img src="/src/assets/screenshoots/Register.png" alt="Register Page" />
 </details>
 
 <details>
   <summary>
     Home Page
   </summary>
-<img src="/screenshoots/home.PNG" alt="Home" />
-<img src="/screenshoots/home2.PNG" alt="Home2" />
+<img src="/src/assets/screenshoots/Landing Page.png" alt="Home" />
 </details>
 
 <details>
   <summary>
    Search Result
   </summary>
-<img src="/screenshoots/searchayam.PNG" alt="Search" />
+<img src="/src/assets/screenshoots/Search.png" alt="Search" />
 </details>
 
 <details>
   <summary>
    Add Recipe
   </summary>
-<img src="/screenshoots/addrecipe.PNG" alt="Add Recipe" />
+<img src="/src/assets/screenshoots/Add Recipe.png" alt="Add Recipe" />
 </details>
 
 <details>
   <summary>
     Profile
   </summary>
-<img src="/screenshoots/profile.PNG" alt="Profile" />
-<img src="/screenshoots/recipe.PNG" alt="ProfileFood" />
+<img src="/src/assets/screenshoots/Profile.png" alt="Profile" />
 </details>
 
 <details>
   <summary>
    Update Page
   </summary>
-<img src="/screenshoots/update.PNG" alt="update" />
+<img src="/src/assets/screenshoots/Update Profile.png" alt="update" />
 </details>
 
 <details>
   <summary>
    Detail Page
   </summary>
-<img src="/screenshoots/detail.PNG" alt="detail" />
-</details>
-
-<details>
-  <summary>
-   Update Page
-  </summary>
-<img src="/screenshoots/update.PNG" alt="update" />
+<img src="/src/assets/screenshoots/Detail Page.png" alt="detail" />
 </details>
 
 <details>
   <summary>
   Video Page
   </summary>
-<img src="/screenshoots/videostep.PNG" alt="update" />
+<img src="/src/assets/screenshoots/Video Page.png" alt="update" />
 </details>
 
 ## Related Project
