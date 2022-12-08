@@ -27,8 +27,7 @@ const DetailVideoRecipe = () => {
                       allowFullScreen
                     />
                     <h3>
-                      Beef Steak with Curry Sauce - [Step 4] Cut the condiment
-                      and then mix it
+                      Hot Dog - [Step 4] Cut the condiment and then mix it
                     </h3>
                     <h6>3 Month Ago</h6>
                   </div>
