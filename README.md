@@ -88,7 +88,7 @@ This app was built with some technologies below:
 RESTful API for this web application, clone this for development Foodtemplate.\
 
 - [backend-MamaRecipe](https://github.com/rezafauzanakbar/food_recipes)
-- [deploy-vercel](https://food-recipe-bice-alpha.vercel.app/)
+- [deploy-vercel](https://frontend-food-recipes.vercel.app/)
 
 ## Contributing
 
