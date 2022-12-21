@@ -30,7 +30,7 @@ const DetailResep = () => {
   const [comments, setComments] = useState([]);
   const getComments = (id) => {
     axios
-      .get(`http://localhost:3001/comment/recipes/${id}`)
+      .get(`${process.env.REACT_APP_BACKEND_URL}/comment/recipes/${id}`)
       .then((res) => {
         console.log(res.data);
         setComments(res.data.data);
