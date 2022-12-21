@@ -45,10 +45,7 @@ const SearchRecipe = () => {
             <div key={index} className="mb-4 col-md-4">
               <Link to={`/DetailRecipe/${data.id_recipes}`}>
                 <div className="card">
-                  <img
-                    src={`${process.env.REACT_APP_BACKEND_URL}/${data.picture}`}
-                    alt=""
-                  />
+                  <img src={data.picture_url} alt="" />
                   <div className="card-img-overlay">
                     <h3>{data.title}</h3>
                   </div>
