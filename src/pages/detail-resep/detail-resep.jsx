@@ -81,11 +81,7 @@ const DetailResep = () => {
             ))}
             <div className="align-items-center image-recipe text-center">
               {data.recipe.map((data) => (
-                <img
-                  src={`${process.env.REACT_APP_BACKEND_URL}/${data.picture}`}
-                  className="img-fluid"
-                  alt
-                />
+                <img src={data.picture_url} className="img-fluid" alt />
               ))}
             </div>
             <div className="detail-recipe">

@@ -54,12 +54,12 @@ const LandingPage = () => {
 
   // Untuk Pagination
   useEffect(() => {
-    dispatch(getPagination(sort, asc, 3, page));
+    dispatch(getPagination(sort, asc, 6, page));
   }, [page, sort, asc]);
 
   const NextPage = () => {
     setPage(page + 1);
-    dispatch(getPagination(sort, asc, 3, page));
+    dispatch(getPagination(sort, asc, 6, page));
     console.log(page);
   };
 
@@ -67,7 +67,7 @@ const LandingPage = () => {
     if (page > 1) {
       setPage(page - 1);
       console.log(page);
-      dispatch(getPagination(sort, asc, 3, page - 1));
+      dispatch(getPagination(sort, asc, 6, page - 1));
     }
   };
 
@@ -78,7 +78,7 @@ const LandingPage = () => {
     } else {
       setSort("id_users");
     }
-    dispatch(getPagination(sort, asc, 3, page));
+    dispatch(getPagination(sort, asc, 6, page));
   };
 
   // ASCENDING
@@ -88,7 +88,7 @@ const LandingPage = () => {
     } else {
       setAsc("asc");
     }
-    dispatch(getPagination(sort, asc, 3, page));
+    dispatch(getPagination(sort, asc, 6, page));
   };
 
   return (
@@ -266,10 +266,7 @@ const LandingPage = () => {
                       <div key={index} className="mb-4 col-md-4">
                         <div className="card">
                           <Link to={`/DetailRecipe/${item.id_recipes}`}>
-                            <img
-                              src={`${process.env.REACT_APP_BACKEND_URL}/${item.picture}`}
-                              alt=""
-                            />
+                            <img src={item.picture_url} alt="" />
                             <div className="card-img-overlay">
                               <h3>{item.title}</h3>
                             </div>

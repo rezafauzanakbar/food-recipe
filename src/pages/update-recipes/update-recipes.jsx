@@ -94,7 +94,7 @@ const UpdateRecipes = () => {
                       ) : (
                         <img
                           className="image-custom-preview"
-                          src={`${process.env.REACT_APP_BACKEND_URL}/${data.picture}`}
+                          src={data.picture_url}
                           alt=""
                         />
                       )}
