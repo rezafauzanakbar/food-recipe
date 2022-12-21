@@ -54,7 +54,7 @@ const DetailResep = () => {
       message: message.message,
     };
     axios
-      .post(`http://localhost:3001/comment`, body)
+      .post(`${process.env.REACT_APP_BACKEND_URL}/comment`, body)
       .then((res) => {
         alert("Comment Success");
         window.location.reload();

@@ -203,7 +203,7 @@ const LandingPage = () => {
                         rame in hurry? That's right!
                       </span>
                     </div>
-                    <Link to="/DetailRecipe/17">
+                    <Link to="/DetailRecipe/32">
                       <button className="btn-custom mt-3">Learn More</button>
                     </Link>
                   </div>
