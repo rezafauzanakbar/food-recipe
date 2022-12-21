@@ -140,7 +140,7 @@ const DetailResep = () => {
             </div>
             <div className="show-comments">
               <h3 className="mt-5">Comments</h3>
-              {comments.data == " " ? (
+              {comments == "" ? (
                 <span>No Comments!</span>
               ) : (
                 comments.map((data, index) => (
